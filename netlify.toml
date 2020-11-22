@@ -1,3 +1,28 @@
 [build]
   publish = "_site"
   command = "DEBUG=* eleventy"
+
+[[redirects]]
+from = "/about"
+to = "/"
+status = 302
+
+[[redirects]]
+from = "/home"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/other"
+to = "/"
+status = 302
+
+[[redirects]]
+from = "/projects"
+to = "/"
+status = 302
+
+[[redirects]]
+from = "/projects/nightout"
+to = "/"
+status = 302
